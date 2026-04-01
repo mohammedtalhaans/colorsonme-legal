@@ -51,10 +51,10 @@
     <h2>3. AI Processing</h2>
     <p>Your photos and data are processed using third-party AI services:</p>
     <ul>
-      <li><strong>Google Gemini</strong> (via OpenRouter) for text-based AI analysis, color season classification, style recommendations, and chat</li>
-      <li><strong>xAI Grok Imagine and fal.ai</strong> for image generation and virtual try-on features</li>
+      <li><strong>Google Gemini via OpenRouter:</strong> We send prompts, chat messages, selected profile or style context, and images you submit for analysis features to OpenRouter, which routes those requests to Google Gemini for text and vision processing.</li>
+      <li><strong>fal.ai and xAI Grok image models:</strong> For virtual try-on and image generation features, we send prompts, uploaded reference images, editing instructions, and related generation inputs through our fal.ai integration, including xAI Grok image-editing models where applicable, in order to create or edit images for you.</li>
     </ul>
-    <p>Photos sent for AI processing are used solely to generate your results. We do not use your photos to train AI models.</p>
+    <p>We use these AI providers only to process your requests and return the requested analysis, recommendations, or generated images to you through our app. We do not use your photos to train our own AI models.</p>
 
     <h2>4. Data Storage and Security</h2>
     <p>Your data is stored securely on Supabase (hosted on AWS) with the following protections:</p>
